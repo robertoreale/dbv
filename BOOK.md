@@ -12,3 +12,12 @@ FROM   pg_class
 GROUP  BY pg_type.typname 
 ORDER  BY Round(Avg(Length(pg_class.relname))) DESC; 
 ```
+# Numerical Recipes
+
+## Calculate the sum of a geometric series
+
+[embedmd]:# (sql/sum-of-geometric-series.sql)
+```sql
+SELECT Sum(Power(2, -n)) 
+FROM   Generate_series(0, 100) AS n; 
+```
