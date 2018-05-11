@@ -1,0 +1,9 @@
+#!/bin/bash
+
+chapter="$1"
+[[ -n $chapter ]] || exit
+
+chapter_name="$(sed -n '1s/## *\(.*\)/\1/p' "$chapter")"
+chapter_url="$(basename "$chapter")"
+
+echo "* [$chapter_name]($chapter_url)"
