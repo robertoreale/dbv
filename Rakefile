@@ -1,6 +1,7 @@
 # inspired by http://marii.info/notes/travis-deploy-to-github-branch/
 
 include FileUtils
+require 'rake'
 require 'tmpdir'
 
 namespace :deploy do
@@ -21,8 +22,8 @@ namespace :deploy do
       Dir.chdir tmp
       system 'git init'
       system "git add . && git commit -m '#{COMMIT_MSG}'"
-      puts 'git remote add origin ' + ORIGIN
-      puts "git push origin master:refs/heads/#{TARGET_BRANCH} --force"
+      system 'git remote add origin ' + ORIGIN
+      system "git push origin master:refs/heads/#{TARGET_BRANCH} --force"
     end
   end
 end
