@@ -5,10 +5,18 @@
 
 .PHONY: all clean
 
-all: BOOK.md
+SOURCES := $(sort $(wildcard chapters/*.md))
+SQL := $(wildcard chapters/sql/*.sql)
+PROCESSED := $(SOURCES:chapters/%.md=manuscript/%.md)
 
-BOOK.md: chapters/*.md
-	ls chapters/*.md | xargs embedmd | grep -v '^<!-- vim:' > BOOK.md
+all: manuscript/Book.txt $(PROCESSED)
+
+manuscript/Book.txt: $(SOURCES)
+	mkdir -p manuscript
+	echo $(^:chapters/%.md=%.md) | xargs -n 1 > manuscript/Book.txt
+
+manuscript/%.md: chapters/%.md $(SQL)
+	embedmd $< | sed '/^<!-- vim:/d' > $@
 
 clean:
-	rm -f BOOK.md
+	rm -fr manuscript
