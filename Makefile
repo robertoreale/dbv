@@ -1,7 +1,7 @@
 # Build prerequisites
 #
 #   1. a sane GNU system
-#   2. embedmd
+#   2. embedmd (https://github.com/campoy/embedmd)
 
 .PHONY: all clean
 
