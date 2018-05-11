@@ -17,7 +17,7 @@ namespace :deploy do
 
     Dir.mktmpdir do |tmp|
       system 'make'
-      cp 'BOOK.md', tmp
+      cp_r 'manuscript', tmp
       Dir.chdir tmp
       system 'git init'
       system "git add . && git commit -m '#{COMMIT_MSG}'"
