@@ -18,6 +18,7 @@ namespace :deploy do
     Dir.mktmpdir do |tmp|
       system 'make'
       cp 'README.md', tmp
+      cp 'book.json', tmp
       cp_r 'manuscript', tmp
       Dir.chdir tmp
       system 'git init'
