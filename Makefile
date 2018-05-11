@@ -1,4 +1,14 @@
-all:
-	embedmd chapters/01-first-steps.md              > BOOK.md
-	embedmd chapters/02-advanced-data-selection.md >> BOOK.md
-	embedmd chapters/03-numerical-recipes.md       >> BOOK.md
+# Build prerequisites
+#
+#   1. a sane GNU system
+#   2. embedmd
+
+.PHONY: all clean
+
+all: BOOK.md
+
+BOOK.md: chapters/*.md
+	ls chapters/*.md | xargs embedmd | grep -v '^<!-- vim:' > BOOK.md
+
+clean:
+	rm -f BOOK.md
