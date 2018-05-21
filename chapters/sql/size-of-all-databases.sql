@@ -1,4 +1,7 @@
-SELECT datname, 
-       Pg_size_pretty(Pg_database_size(datname)) 
-FROM   pg_database 
-ORDER  BY Pg_database_size(datname) DESC;
+SELECT datname,
+
+       pg_size_pretty(pg_database_size(datname))
+
+  FROM pg_database
+
+ ORDER BY pg_database_size(datname) DESC;
