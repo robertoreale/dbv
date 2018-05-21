@@ -2,6 +2,8 @@
 
 ### Count the client sessions with a FQDN
 
+The table `pg_stat_activity` lists the current sessions and outputs information about the connected sessions.
+
 Assume a FQDN has the form `N_1.N_2.....N_t`, where `t > 1` and each `N_i` can contain lowercase letters, numbers and the dash.
  
 [embedmd]:# (sql/count-fqdn-client-hostnames.sql)
