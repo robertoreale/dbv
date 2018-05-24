@@ -1,4 +1,4 @@
-## First Steps
+## Tables, Tables Everywhere
 
 ### What is PostgreSQL
 
