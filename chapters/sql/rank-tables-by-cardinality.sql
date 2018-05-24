@@ -6,8 +6,8 @@ SELECT tbs.spcname AS TABLESPACE,
 
        reltuples AS numrows,
 
-       rank() OVER ( PARTITION BY reltablespace
-                    ORDER BY reltuples DESC ) AS rank
+       rank() OVER (PARTITION BY reltablespace
+                    ORDER BY reltuples DESC) AS rank
 
   FROM pg_class cl
 
