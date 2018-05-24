@@ -1,5 +1,10 @@
 ## Tables, Tables Everywhere
 
+In the relational paradigm, the basic data structure is a table.
+
+#### List all tables
+
+[embedmd]:# (sql/list-all-tables.sql)
 
 #### Display table index usage rates
 
