@@ -11,9 +11,9 @@
     },
     "links": {
         "sidebar": {
-            "Source Code": "https://github.com/robertoreale/dbv",
-            "Read on GitBook": "https://robertoreale.gitbooks.io/dbv/",
-            "Printed Version": "https://leanpub.com/dbv"
+            "Source Code": "https://github.com/robertoreale/dbvirtuoso",
+            "Read on GitBook": "https://robertoreale.gitbooks.io/dbvirtuoso/",
+            "Printed Version": "https://leanpub.com/dbvirtuoso"
         }
     },
     "pluginsConfig": {}
