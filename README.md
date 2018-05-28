@@ -1,16 +1,16 @@
-# The Virtuoso DBA
+# The Database Virtuoso
 
-[![Build Status](https://travis-ci.org/robertoreale/virtuosodba.svg?branch=master)](https://travis-ci.org/robertoreale/virtuosodba)
+[![Build Status](https://travis-ci.org/robertoreale/dbv.svg?branch=master)](https://travis-ci.org/robertoreale/dbv)
 
 ## Introduction
 
-This repository contains the source code of my book _The Virtuoso DBA_.
+This repository contains the source code of my book _The Database Virtuoso_.
 
 ## Where to find the book
 
-* read the book online on [GitBook](https://robertoreale.gitbooks.io/virtuosodba)
-* download the book in [PDF](https://legacy.gitbook.com/download/pdf/book/robertoreale/virtuosodba), [Mobi](https://legacy.gitbook.com/download/mobi/book/robertoreale/virtuosodba), or [ePub](https://legacy.gitbook.com/download/epub/book/robertoreale/virtuosodba)
-* buy the book on [Leanpub](https://leanpub.com/virtuosodba)
+* read the book online on [GitBook](https://robertoreale.gitbooks.io/dbv)
+* download the book in [PDF](https://legacy.gitbook.com/download/pdf/book/robertoreale/dbv), [Mobi](https://legacy.gitbook.com/download/mobi/book/robertoreale/dbv), or [ePub](https://legacy.gitbook.com/download/epub/book/robertoreale/dbv)
+* buy the book on [Leanpub](https://leanpub.com/dbv)
 * review the book on [Goodreads](https://www.goodreads.com/book/show/35640192-the-virtuoso-dba)
 
 ## How to contribute
@@ -19,9 +19,9 @@ Please feel free to fork this repository if there are any edits you should love 
 
 ## Branches
 
-* the [master](https://github.com/robertoreale/virtuosodba) branch is the default branch
-* the [book](https://github.com/robertoreale/virtuosodba/tree/book) branch contains the intermediate code for Leanpub and GitBook
-* the [gh-pages](https://github.com/robertoreale/virtuosodba/tree/gh-pages) branch contains the landing page, which is based on the Jekyll theme [compass](https://github.com/excentris/compass) by [Eduardo Rubio](https://github.com/excentris)
+* the [master](https://github.com/robertoreale/dbv) branch is the default branch
+* the [book](https://github.com/robertoreale/dbv/tree/book) branch contains the intermediate code for Leanpub and GitBook
+* the [gh-pages](https://github.com/robertoreale/dbv/tree/gh-pages) branch contains the landing page, which is based on the Jekyll theme [compass](https://github.com/excentris/compass) by [Eduardo Rubio](https://github.com/excentris)
 
 ## License notice
 
