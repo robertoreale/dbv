@@ -9,7 +9,8 @@ SOURCES := $(sort $(wildcard chapters/*.md))
 SQL := $(wildcard chapters/sql/*.sql)
 PROCESSED := $(SOURCES:chapters/%.md=manuscript/%.md)
 
-all: manuscript/Book.txt manuscript/README.md manuscript/SUMMARY.md $(PROCESSED)
+all: manuscript/Book.txt manuscript/README.md \
+	manuscript/SUMMARY.md manuscript/images/title_page.jpg $(PROCESSED)
 
 manuscript/Book.txt: $(SOURCES)
 	mkdir -p manuscript
@@ -23,6 +24,10 @@ manuscript/SUMMARY.md: $(SOURCES)
 	mkdir -p manuscript
 	echo -e "# Summary\n" > $@
 	echo $^ | xargs -n 1 ./summary-item >> $@
+
+manuscript/images/title_page.jpg: chapters/images/title_page.jpg
+	mkdir -p manuscript/images
+	cp -p chapters/images/title_page.jpg manuscript/images/
 
 manuscript/%.md: chapters/%.md $(SQL)
 	embedmd $< | sed '/^<!-- vim:/d' > $@
