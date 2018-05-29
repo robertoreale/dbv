@@ -8,5 +8,11 @@ By sorting the object types by the average name length of their instances, we fi
 
 [embedmd]:# (sql/sort-object-types-by-avg-name-length.sql)
 
+### Rank tables based on their cardinality
+
+We partition the result set by tablespace.
+
+[embedmd]:# (sql/rank-tables-by-cardinality.sql)
+
 
 <!-- vim: set fenc=utf-8 spell spl=en ts=4 sw=4 et filetype=markdown : -->
