@@ -10,6 +10,8 @@ Assume a FQDN has the form `N_1.N_2.....N_t`, where `t > 1` and each `N_i` can c
 
 ### Calculate the edit (or Levenshtein) distance between a table name and the names of its dependent indexes
 
+The `fuzzystrmatch` module must be installed.
+
 [embedmd]:# (sql/levenshtein-table-indexes.sql)
 
 
