@@ -11,7 +11,7 @@ This repository contains the source code of my book _The Database Virtuoso_.
 * read the book online on [GitBook](https://robertoreale.gitbooks.io/dbvirtuoso)
 * download the book in [PDF](https://legacy.gitbook.com/download/pdf/book/robertoreale/dbvirtuoso), [Mobi](https://legacy.gitbook.com/download/mobi/book/robertoreale/dbvirtuoso), or [ePub](https://legacy.gitbook.com/download/epub/book/robertoreale/dbvirtuoso)
 * buy the book on [Leanpub](https://leanpub.com/dbvirtuoso)
-* review the book on [Goodreads](https://www.goodreads.com/book/show/35640192-the-virtuoso-dba)
+* review the book on [Goodreads](https://www.goodreads.com/book/show/35640192-the-database-virtuoso)
 
 ## How to contribute
 
