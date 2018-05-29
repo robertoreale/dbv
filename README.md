@@ -22,7 +22,6 @@ Please feel free to fork this repository if there are any edits you should love 
 
 * the [master](https://github.com/robertoreale/dbvirtuoso) branch is the default branch
 * the [book](https://github.com/robertoreale/dbvirtuoso/tree/book) branch contains the intermediate code for Leanpub and GitBook
-* the [gh-pages](https://github.com/robertoreale/dbvirtuoso/tree/gh-pages) branch contains the landing page, which is based on the Jekyll theme [compass](https://github.com/excentris/compass) by [Eduardo Rubio](https://github.com/excentris)
 
 ## License notice
 
