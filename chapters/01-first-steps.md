@@ -11,17 +11,9 @@ Let me quote the official documentation:
 > University of California at Berkeley and has more than 30 years of active
 > development on the core platform.
 
-#### Show the size of all the databases
-
-[embedmd]:# (sql/size-of-all-databases.sql)
-
 #### Display table index usage rates
 
 [embedmd]:# (sql/table-index-usage-rates.sql)
-
-#### Show running queries
-
-[embedmd]:# (sql/running-queries.sql)
 
 
 <!-- vim: set fenc=utf-8 spell spl=en ts=4 sw=4 et filetype=markdown : -->
