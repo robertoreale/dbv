@@ -2,13 +2,13 @@
 
 In this chapter we will discuss analytical and aggregate functions.
 
-### Sort the object types by their average name length
+#### Sort the object types by their average name length
 
 By sorting the object types by the average name length of their instances, we find a metric about how *exoteric* a given object type is.
 
 [embedmd]:# (sql/sort-object-types-by-avg-name-length.sql)
 
-### Rank tables based on their cardinality
+#### Rank tables based on their cardinality
 
 We partition the result set by tablespace.
 

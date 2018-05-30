@@ -1,6 +1,6 @@
 ## String Manipulation
 
-### Count the client sessions with a FQDN
+#### Count the client sessions with a FQDN
 
 The table `pg_stat_activity` lists the current sessions and outputs information about the connected sessions.
 
@@ -8,7 +8,7 @@ Assume a FQDN has the form `N_1.N_2.....N_t`, where `t > 1` and each `N_i` can c
  
 [embedmd]:# (sql/count-fqdn-client-hostnames.sql)
 
-### Calculate the edit (or Levenshtein) distance between a table name and the names of its dependent indexes
+#### Calculate the edit (or Levenshtein) distance between a table name and the names of its dependent indexes
 
 The `fuzzystrmatch` module must be installed.
 
