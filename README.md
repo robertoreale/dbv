@@ -1,6 +1,6 @@
 # The Database Virtuoso
 
-[![Build Status](https://travis-ci.org/robertoreale/dbvirtuoso.svg?branch=master)](https://travis-ci.org/robertoreale/dbvirtuoso)
+[![Build Status](https://travis-ci.org/reale/dbvirtuoso.svg?branch=master)](https://travis-ci.org/reale/dbvirtuoso)
 
 ## Introduction
 
@@ -8,8 +8,8 @@ This repository contains the source code of my book _The Database Virtuoso_.
 
 ## Where to find the book
 
-* read the book online on [GitBook](https://robertoreale.gitbooks.io/dbvirtuoso)
-* download the book in [PDF](https://legacy.gitbook.com/download/pdf/book/robertoreale/dbvirtuoso), [Mobi](https://legacy.gitbook.com/download/mobi/book/robertoreale/dbvirtuoso), or [ePub](https://legacy.gitbook.com/download/epub/book/robertoreale/dbvirtuoso)
+* read the book online on [GitBook](https://reale.gitbooks.io/dbvirtuoso)
+* download the book in [PDF](https://legacy.gitbook.com/download/pdf/book/reale/dbvirtuoso), [Mobi](https://legacy.gitbook.com/download/mobi/book/reale/dbvirtuoso), or [ePub](https://legacy.gitbook.com/download/epub/book/reale/dbvirtuoso)
 * buy the book on [Leanpub](https://leanpub.com/dbvirtuoso)
 * review the book on [Goodreads](https://www.goodreads.com/book/show/35640192-the-database-virtuoso)
 * follow the book's own [Twitter](https://twitter.com/dbvirtuoso) channel
@@ -20,8 +20,8 @@ Please feel free to fork this repository if there are any edits you should love 
 
 ## Branches
 
-* the [master](https://github.com/robertoreale/dbvirtuoso) branch is the default branch
-* the [book](https://github.com/robertoreale/dbvirtuoso/tree/book) branch contains the intermediate code for Leanpub and GitBook
+* the [master](https://github.com/reale/dbvirtuoso) branch is the default branch
+* the [book](https://github.com/reale/dbvirtuoso/tree/book) branch contains the intermediate code for Leanpub and GitBook
 
 ## License notice
 
