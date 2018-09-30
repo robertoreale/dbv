@@ -1,14 +1,14 @@
 WITH t0 AS
 
-        ( SELECT generate_series(1583, 2999) AS YEAR
+        (SELECT generate_series(1583, 2999) AS YEAR
        ),
 
        t1 AS
 
-        ( SELECT YEAR,
+        (SELECT YEAR,
 
                CASE
-               WHEN YEAR < 1700 THEN 22
+              WHEN YEAR < 1700 THEN 22
 
                     WHEN YEAR < 1900 THEN 23
 
@@ -19,7 +19,7 @@ WITH t0 AS
                      END AS m,
 
                CASE
-               WHEN YEAR < 1700 THEN 2
+              WHEN YEAR < 1700 THEN 2
 
                     WHEN YEAR < 1800 THEN 3
 
@@ -44,7 +44,7 @@ WITH t0 AS
 
        t2 AS
 
-        ( SELECT YEAR,
+        (SELECT YEAR,
 
                m,
 
@@ -63,7 +63,7 @@ WITH t0 AS
 
        t3 AS
 
-        ( SELECT YEAR,
+        (SELECT YEAR,
 
                m,
 
@@ -84,7 +84,7 @@ WITH t0 AS
 
        t4 AS
 
-        ( SELECT YEAR,
+        (SELECT YEAR,
 
                m,
 
@@ -110,7 +110,7 @@ WITH t0 AS
 
        t5 AS
 
-        ( SELECT YEAR,
+        (SELECT YEAR,
 
                m,
 
@@ -127,14 +127,14 @@ WITH t0 AS
                e,
 
                CASE
-               WHEN DAY > 31 THEN DAY - 31
+              WHEN DAY > 31 THEN DAY - 31
 
                     ELSE DAY
 
                      END AS DAY,
 
                CASE
-               WHEN DAY > 31 THEN MONTH + 1
+              WHEN DAY > 31 THEN MONTH + 1
 
                     ELSE MONTH
 
@@ -146,17 +146,17 @@ WITH t0 AS
 
        t6 AS
 
-        ( SELECT YEAR,
+        (SELECT YEAR,
 
                CASE
-               WHEN DAY = 26
-                    AND MONTH = 4                                 THEN 19
+              WHEN DAY = 26
+                   AND MONTH = 4                                 THEN 19
 
                     WHEN DAY = 25
-                    AND MONTH = 4
-                    AND d = 28
-                    AND e = 6
-                    AND a > 10 THEN 18
+                   AND MONTH = 4
+                   AND d = 28
+                   AND e = 6
+                   AND a > 10 THEN 18
 
                     ELSE DAY
 
@@ -170,9 +170,9 @@ WITH t0 AS
 
        t7 AS
 
-        ( SELECT YEAR,
+        (SELECT YEAR,
 
-               to_date( to_char(DAY, '00') || to_char(MONTH, '00') || to_char(YEAR, '0000'), 'DDMMYYYY' ) AS easter_sunday
+               to_date(to_char(DAY, '00') || to_char(MONTH, '00') || to_char(YEAR, '0000'), 'DDMMYYYY') AS easter_sunday
 
           FROM t6
        )
