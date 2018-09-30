@@ -22,7 +22,8 @@ manuscript/README.md: $(SOURCES)
 
 manuscript/SUMMARY.md: $(SOURCES)
 	mkdir -p manuscript
-	echo -e "# Summary\n" > $@
+	echo "# Summary" > $@
+	echo            >> $@
 	echo $^ | xargs -n 1 ./summary-item >> $@
 
 manuscript/images/title_page.jpg: chapters/images/title_page.jpg
