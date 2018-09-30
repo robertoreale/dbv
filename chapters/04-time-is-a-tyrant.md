@@ -6,6 +6,10 @@ In this chapter we will discuss time-related functions.
 
 [embedmd]:# (sql/first-and-last-day-of-current-month.sql)
 
+#### Show the first and last day of the current year
+
+[embedmd]:# (sql/first-and-last-day-of-current-year.sql)
+
 #### Calculate the calendar date of Easter, from 1583 to 2999
 
 [embedmd]:# (sql/easter.sql)
