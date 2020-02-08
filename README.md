@@ -11,7 +11,6 @@ This repository contains the source code of my book _The Database Virtuoso_.
 * read the book online on [GitBook](https://dbvirtuoso.reale.me/)
 * buy the book on [Leanpub](https://leanpub.com/dbvirtuoso)
 * review the book on [Goodreads](https://www.goodreads.com/book/show/35640192-the-database-virtuoso)
-* follow the book's own [Twitter](https://twitter.com/dbvirtuoso) channel
 
 ## How to contribute
 
