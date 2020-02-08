@@ -1,0 +1,10 @@
+00-introduction.md
+01-tables-tables-everywhere.md
+02-string-manipulation.md
+03-functions.md
+04-time-is-a-tyrant.md
+05-advanced-data-selection.md
+06-iteration-row-generation.md
+07-numerical-recipes.md
+08-xml-database-101.md
+license-notice.md
