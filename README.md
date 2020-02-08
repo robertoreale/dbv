@@ -1,6 +1,6 @@
 # The Database Virtuoso
 
-[![Build Status](https://travis-ci.org/reale/dbvirtuoso.svg?branch=master)](https://travis-ci.org/reale/dbvirtuoso)
+[![Build Status](https://api.travis-ci.com/reale/dbvirtuoso.svg?branch=master)](https://travis-ci.com/reale/dbvirtuoso)
 
 ## Introduction
 
